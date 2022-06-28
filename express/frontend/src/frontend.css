@@ -1,0 +1,70 @@
+body{
+    width: 100%;
+}
+
+.text{
+    text-align: center;
+    padding: 0;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.post{/*Styling the post button*/
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 75 !important;
+    background-color: rgb(243, 141, 150);
+    color: #fff;
+    padding: 23px 23px;
+    margin: auto;
+    text-align: center;
+    display: inline-block !important;
+    text-decoration: none;
+    border: 0px;
+    width: max-content;
+    cursor: pointer;
+    transition: all 0.3s 0s ease-in-out;
+}
+
+input[type=text]{/*Styling the inputs in the form*/
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 15px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.delete{/*Styling the delete button*/
+    background-color: rgb(250, 0, 0);
+    color: white;
+    border: 0px;
+    padding: 23px 23px;
+    cursor: pointer;
+    transition: all 0.3s 0s ease-in-out;
+}
+
+p{
+    font-size: 16px;
+}
+
+.update{/*Styling the update ie. put button*/
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 75 !important;
+    background-color: rgb(24, 92, 11);
+    color: rgb(255, 255, 255);
+    padding: 23px 23px;
+    margin: auto;
+    text-align: center;
+    display: inline-block !important;
+    text-decoration: none;
+    border: 0px;
+    width: max-content;
+    cursor: pointer;
+    transition: all 0.3s 0s ease-in-out;
+}
